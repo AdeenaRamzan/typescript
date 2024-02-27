@@ -1,2 +1,2 @@
 # typescript
-This is my first Git Repository
+This is my 45 Assignments respository
