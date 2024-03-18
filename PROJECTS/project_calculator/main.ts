@@ -23,15 +23,18 @@ if (answer.operator === "Addition") {
   let add = answer.firstNumber + answer.secondNumber;
   console.log("The answer is: " + add);
 }
-if (answer.operator === "Subtraction") {
+else if (answer.operator === "Subtraction") {
   let sub = answer.firstNumber - answer.secondNumber;
   console.log("The answer is: " + sub);
 }
-if (answer.operator === "Multiplication") {
+else if (answer.operator === "Multiplication") {
   let multiply = answer.firstNumber * answer.secondNumber;
   console.log("The answer is: " + multiply);
 }
-if (answer.operator === "Division") {
+else if (answer.operator === "Division") {
   let divide = answer.firstNumber / answer.secondNumber;
   console.log("The answer is: " + divide);
+}
+else {
+  console.log("Please enter valid operator");
 }
